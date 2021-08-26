@@ -1,0 +1,23 @@
+.hero-info button.button,
+.design-info button.button,
+.branding-info button.button{
+    padding: 18px 30px;
+    font-size: 18px;
+    border-radius: 30px;
+    color : var(--font-color);
+
+    margin: 10px 0;
+
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width:768px) {
+    .hero-info button.button,
+    .design-info button.button,
+    .branding-info button.button{
+        padding: 12px 25px;
+        font-size: 16px;
+    }
+}

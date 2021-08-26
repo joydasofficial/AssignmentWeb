@@ -1,0 +1,11 @@
+.hero-container{
+    width: 100vw;
+    height: auto;
+    display: flex;
+}
+
+@media screen and (max-width:768px) {
+    .hero-container{
+        flex-direction: column;
+    }
+}

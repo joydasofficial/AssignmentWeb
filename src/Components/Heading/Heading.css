@@ -1,0 +1,11 @@
+.hero-info h2.title,
+.design-info h2.title,
+.branding-info h2.title{
+    font-size: 50px;
+    padding: 10px 0;
+    line-height: 60px;
+}
+
+.hero-info h2.title{
+    color: var(--primary-color);
+}

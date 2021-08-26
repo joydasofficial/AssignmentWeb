@@ -1,0 +1,12 @@
+.branding-container{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    background: var(--secondary-color);
+}
+
+@media screen and (max-width:768px) {
+    .branding-container{
+        flex-direction: column;
+    }
+}
