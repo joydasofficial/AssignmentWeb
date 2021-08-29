@@ -4,8 +4,21 @@
     display: flex;
 }
 
+.hero-container .media{
+    background-size: cover;
+
+}
+
 @media screen and (max-width:768px) {
     .hero-container{
         flex-direction: column;
     }
+
+    .hero-container .hero-info{
+        width: 100%;
+    }
+
+    .hero-container .hero-info p.desc{
+        padding: 20px 0;
+    } 
 }

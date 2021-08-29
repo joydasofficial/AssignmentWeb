@@ -9,4 +9,7 @@
     .design-container{
         flex-direction: column;
     }
+    .design-container .design-info{
+        width: 100%;
+    }
 }

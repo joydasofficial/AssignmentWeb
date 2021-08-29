@@ -4,6 +4,11 @@ import Design from './Components/Design/Design'
 import Branding from './Components/Branding/Branding'
 import Navbar from './Components/Navbar/Navbar'
 import MobileNavbar from './Components/Navbar/MobileNavbar'
+import About from './Components/About/About'
+import Grid from './Components/Grid/Grid'
+import Testimonials from './Components/Testimonials/Testimonials'
+import CTA from './Components/CTA/CTA'
+import Footer from './Components/Footer/Footer'
 
 const App = () => {
   return (
@@ -11,8 +16,13 @@ const App = () => {
       <Navbar />
       <MobileNavbar />
       <Hero />
+      <About />
       <Design />
+      <Grid />
       <Branding />
+      <Testimonials />
+      <CTA />
+      <Footer />
     </>
   )
 }

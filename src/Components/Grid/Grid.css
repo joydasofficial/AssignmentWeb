@@ -1,0 +1,31 @@
+.grid-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 70px;
+    padding: 70px;
+  }
+  
+  .grid-container > div {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .item1 {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    height : 75vh;
+  }
+
+  @media screen and (max-width:768px) {
+    .grid-container{
+      grid-template-columns: 1fr;
+    }
+    .grid-container > div{
+      height: 50vh;
+    }
+  }

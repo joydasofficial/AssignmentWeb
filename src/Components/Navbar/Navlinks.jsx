@@ -9,7 +9,6 @@ const NavLinks = (props) => {
                 <NavLink exact activeClassName='active_menu_item' to='/' >Home</NavLink>
             </li>
             <li onClick={() => props.isMobile && props.closeMobileMenu()}>
-
                 <NavLink exact activeClassName='active_menu_item' to='/about' >About</NavLink>
             </li>
             <li onClick={() => props.isMobile && props.closeMobileMenu()}>

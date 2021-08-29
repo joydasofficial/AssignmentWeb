@@ -9,4 +9,7 @@
     .branding-container{
         flex-direction: column;
     }
+    .branding-container .branding-info{
+        width: 100%;
+    }
 }

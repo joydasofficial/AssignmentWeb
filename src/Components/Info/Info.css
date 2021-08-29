@@ -8,6 +8,7 @@
 }
 
 .hero-info,
+.about-info,
 .design-info,
 .branding-info{
     width: 90%;
@@ -15,33 +16,39 @@
     padding: 15%;
 }
 
-
-
 .hero-info h3.sub_title,
+.about-info h3.sub_title,
+.cta-info h3.sub_title,
 .design-info h3.sub_title,
 .branding-info h3.sub_title{
-    font-size: 18px;
+    font-size: 20px;
+    font-weight: 500;
     text-transform: uppercase;
     margin: 10px 0;
+    letter-spacing: 3px;
 }
 
-.hero-info h3.sub_title{
+.hero-info h3.sub_title,
+.about-info h3.sub_title{
     color: var(--secondary-color);
 }
 
 .hero-info p.desc,
+.about-info p.desc,
 .design-info p.desc,
+.cta-info p.desc,
 .branding-info p.desc{
-    font-size: 16px;
+    font-size: 18px;
     margin: 20px 75px 20px 0;
-    line-height: 25px;
+    line-height: 30px;
 }
 
-.hero-info p.desc{
+.hero-info p.desc,
+.cta-info p.desc,
+.about-info p.desc
+{
     color : var(--font-color);
 }
-
-
 
 .branding-info h2,h3,p{
     color: #fff;
